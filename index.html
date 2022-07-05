@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cumpleaños, cumpleaños de quince, quincieañera, cumple, cumple de quince, invitacion de cumpleaños, invitacion de quince"/>
+    <!-- Style and Fonts-->
+    <link rel="stylesheet" href="./css/translated.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Título Webpage -->
+    <title>Mia Gatica - 15 años</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        li > a:hover {
+        color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <!-- menu -->
+    <section> 
+        <header>
+            <!-- nav -->
+            <!-- AGREGUÉ Transicions y animaciones -->
+            <nav>
+                <div class="bg-img banner-text">
+                    <h1 class="scale-up-center">MIA GATICA | MIS QUINCE</h1>
+                         <ul class="position-text scale-up-center">
+                                <li id="transition1">
+                                    <a href="#donde">¿DONDE Y CUANDO?</a>
+                                </li>
+                                <li id="transition1">
+                                    <a href="#fotos">FOTOS</a>
+                                </li>
+                                <li id="transition1">
+                                    <a href="#contacto">CONFIRMAR ASISTENCIA</a>
+                                </li>
+                            </ul>
+                </div>
+            </nav> <!--fin del nav-->
+        </header>
+    </section> <!-- fin menu -->
+        <!--Donde y Cuando-->
+        <SECTION id="donde">
+            <h2 class="titles">¿DONDE Y CUANDO?</h2>
+            <div class="container d-flex justify-content-center">
+                <div class="donde-at row m-auto py-4 px-2">
+                    <div class="col-6">
+                        <ul class="my-2">
+                            <li class="contact-color">SÁBADO, 10 DE SEPTIEMBRE</li>
+                            <li class="contact-color display-1 fw-bold">2022</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 line_1">
+                        <ul class="my-2">
+                            <li><p class="contact-color fw-bold">BOARDING <em class="contact-color fw-light mx-2"> 22:30hs</em></p></li>
+                            <li> <p class="contact-color fw-bold">CALLE <em class="contact-color fw-light mx-2">Adolfo Alsina</em></p></li>
+                            <li><p class="contact-color fw-bold">GATE Nº <em class="contact-color fw-light mx-2"> 940</em></p></li>
+                            <li class="contact-color fw-bold">FIRST CLASS</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+          </SECTION><!--Fin Donde y Cuando-->
+          <!-- galeria -->
+    <section id="fotos" class="gallery-margin">
+        <div class="container w-75 h-100">
+            <h2 class="titles">FOTOS</h2>
+            <!--<div class="gallery">-->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 m-0 p-0 mb-lg-0">
+                    <img src="../img/galeria/shutterbug.jpg" class="w-100 shadow-1-strong m-0" alt="foto de una chica con su camara">
+                    <img src="../img/galeria/yellowwall.jpg" class="w-100 shadow-1-strong m-0" alt="Chica caminando delante de una pared amarilla">
+                    <img src="../img/galeria/salad.jpg" class="w-100 shadow-1-strong m-0" alt="imagen de una ensalada">
+                </div>
+                <div class="col-lg-6 col-md-12 m-0 p-0 mb-lg-0">
+                    <img src="../img/galeria/minimalismo.jpg" class="w-100 shadow-1-strong m-0" alt="imagen minimalista">
+                
+                    <img src="../img/galeria/architecture.jpg" class="w-100 shadow-1-strong m-0" alt="foto de un edificio celeste">
+                    
+                    <img src="../img/galeria/skaterboy.jpg" class="w-100 shadow-1-strong m-0" alt="foto de un chico en su skater">
+                </div>
+            </div>
+        </div>
+    </section>  <!-- fin fotos -->  
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="container w-75">
+            <div>
+                <h2 class="contact-color mb-4" style="text-align: center;">CONFIRMAR ASISTENCIA</h2>
+            </div>
+        </div>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="container w-75">
+                <h3 class="mia_form">MIA GATICA | MIS QUINCE</h3>
+            </div>
+            <div class="container w-75 mt-0"> 
+                <div class="form_background">
+                    <div class="col-12">
+                        <label for="validationCustom01" class="form-label contact-color mt-2">NOMBRE</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Maria" required>
+                        <div class="invalid-feedback">
+                            Campo Obligatorio
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="validationCustom02" class="form-label contact-color mt-2">APELLIDO</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Lopez" required>
+                        <div class="invalid-feedback">
+                            Campo Obligatorio
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="validationCustom02" class="form-label contact-color mt-2">¿ASISTIRÉ?</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Asistiré ¿Si | No?" required>
+                        <div class="invalid-feedback">
+                            Campo Obligatorio
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="validationCustom04" class="form-label contact-color mt-2">COMIDAD ESPECIAL</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Seleccione su opción</option>
+                            <option>Vegetariano</option>
+                            <option>Sin gluten</option>
+                            <option>Sin sal</option>
+                            <option>Otro</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Por favor selecciones una comida especial valida
+                        </div>
+                    </div> 
+                </div> 
+                <div class="mt-2">
+                    <h2 class="mb-0 mia_form_1"> º BOARDING PASS º</h2>
+                    <div class="mia_form_2 container d-flex flex-column align-content-center">
+                        <div class="m-auto row">
+                            <div class="col-6 py-3">
+                                <h3 class="contact-color">MIA GATICA</h3>
+                                <p class="contact-color mb-0">Viajá conmigo en</p>
+                                <p class="contact-color">Mi Cumple de Quince</p>
+                            </div>
+                            <div class="col-6 m-auto text-center line_1">
+                                <img src="../img/icon/spoon-and-fork.svg" alt="circulo conteniendo una cuchara y un tenedor" width="100"/>
+                                <p class="contact-color">Free buffet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="mia_form w-100 mt-2 border-0" type="submit" id="subscribe-button" >
+                            <i class="ion-paper-airplane">Enviar <span class="iconify" data-icon="fe:paper-plane" style="color: white;"></span></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section><!-- Fin Contacto -->
+    <!--footer-->
+    <footer>
+       
+            <p>&copy; Todos los derechos reservados <a href="marianasolares.com">by MPS design</a></p>
+            <div class="footer-iconos pb-3">
+                <a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+                <a href="#"><span class="iconify" data-icon="codicon:github"></span></a>
+            </div>
+        </footer>
+	</footer><!-- Fin Footer --> 
+    <!-- iconify -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>  
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+
+
+
+</body>
+</html>

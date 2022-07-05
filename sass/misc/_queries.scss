@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 480px) {
+    
+    footer {
+        flex-direction: column;
+    }
+    .donde-at{
+        width: 100% !important;
+    }
+    .banner-text {
+        padding-top: 75% !important;
+    }
+    .position-text{
+        width: 90%;
+    }
+    #contacto, #donde, .donde-at{
+        padding: 10px 0 20px 0 !important;
+    }
+    #donde, li > p{
+        margin-bottom:0.5rem;
+    } 
+ 
+}

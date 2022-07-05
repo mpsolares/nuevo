@@ -1,0 +1,50 @@
+#contacto{
+    background-image: url("../img/background/contacto.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+#contacto, i{
+    font-size: $text-medium;
+    font-style: normal;
+}
+h3{
+    text-align: left;
+    font-size: $text-medium !important;
+    font-weight: 400;
+}
+.mia_form{
+    background-color: $secondary;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.mia_form_1{
+    background-color: $secondary;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 20px;
+}
+.mia_form_2{
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 20px;
+}
+.form_background{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px 30px 20px;
+}
+.contact-color{
+    color: $secondary;
+}
+.form-control{
+    background-color: #E5E5E5 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.line_1{
+    border-left: medium solid $secondary;   
+}
+form {
+    text-align: left !important;
+}

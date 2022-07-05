@@ -1,0 +1,231 @@
+/* Misc */
+/* colors */
+/* font families */
+/* spacing */
+/* Font sizes */
+/* Line */
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF; }
+
+ul {
+  list-style-type: none; }
+
+li a {
+  color: #FFFFFF;
+  margin: 0.625rem;
+  text-decoration: none; }
+
+h1 {
+  font-size: 2.4em; }
+
+h1, h2 {
+  text-align: center; }
+
+.navbar-brand {
+  color: #3d3626 !important; }
+
+.nav-link {
+  color: #86785C !important; }
+
+/************ Body ************/
+.titles {
+  color: #86785C;
+  text-align: center;
+  margin-bottom: 20px; }
+
+#contacto p {
+  color: #86785C; }
+
+/** sections colors **/
+#acerca, #fotos, #donde, #contacto {
+  color: #86785C;
+  padding: 40px; }
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s ease-in 0.1s both;
+  animation: scale-up-center 0.4s ease-in 0.1s both; }
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* Transition */
+#transition1 {
+  transition-timing-function: ease-in; }
+
+#transition1:hover {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #ebe6e0; }
+
+.nav-link:hover {
+  color: #3d3626 !important; }
+
+button:hover {
+  background-color: #3d3626; }
+
+@media screen and (max-width: 480px) {
+  footer {
+    flex-direction: column; }
+  .donde-at {
+    width: 100% !important; }
+  .banner-text {
+    padding-top: 75% !important; }
+  .position-text {
+    width: 90%; }
+  #contacto, #donde, .donde-at {
+    padding: 10px 0 20px 0 !important; }
+  #donde, li > p {
+    margin-bottom: 0.5rem; } }
+
+/* Partials */
+.bg-img {
+  background-image: url("../img/background/header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px; }
+
+.banner-text {
+  padding-top: 25%; }
+
+.position-text {
+  text-align: center;
+  margin-top: 5px; }
+
+.position-text li {
+  float: none;
+  display: inline-block; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom: 0;
+  color: #FFFFFF; }
+
+/************ nav ************/
+.topnav {
+  overflow: hidden;
+  background-color: #86785C; }
+  .topnav__a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em; }
+  .topnav__li {
+    float: right;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0; }
+  .topnav__h1 > a {
+    margin-top: 14px; }
+
+footer {
+  position: relative;
+  bottom: 0;
+  color: #ebe6e0;
+  background-color: #3d3626;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%; }
+
+.footer-iconos {
+  margin-left: 20px;
+  align-items: center; }
+
+/* Views */
+#contacto {
+  background-image: url("../img/background/contacto.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px; }
+
+#contacto, i {
+  font-size: 1.2em;
+  font-style: normal; }
+
+h3 {
+  text-align: left;
+  font-size: 1.2em !important;
+  font-weight: 400; }
+
+.mia_form {
+  background-color: #86785C;
+  border-radius: 10px;
+  padding: 10px 20px; }
+
+.mia_form_1 {
+  background-color: #86785C;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px; }
+
+.mia_form_2 {
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 20px; }
+
+.form_background {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px 30px 20px; }
+
+.contact-color {
+  color: #86785C; }
+
+.form-control {
+  background-color: #E5E5E5 !important;
+  border: none !important;
+  border-radius: 0 !important; }
+
+.line_1 {
+  border-left: medium solid #86785C; }
+
+form {
+  text-align: left !important; }
+
+#donde {
+  background-image: url("../img/background/donde.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px; }
+
+.donde-at {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 50%; }
+
+#fotos {
+  background-image: url("../img/background/fotos.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px; }
